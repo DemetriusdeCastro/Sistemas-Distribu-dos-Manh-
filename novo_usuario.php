@@ -1,6 +1,9 @@
 <?php
 
+session_start();
+
 include('conexao.php');
+include('valida_usuario.php');
 
 $matricula = isset($_POST['matricula']) ? $_POST['matricula'] : '';
 $login = isset($_POST['login']) ? $_POST['login'] : '';

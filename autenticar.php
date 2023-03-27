@@ -1,6 +1,7 @@
 <?php
 
 include('conexao.php');
+include('valida_usuario.php');
 
 $login = isset($_POST['login']) ? $_POST['login'] : '';
 $senha = isset($_POST['senha']) ? $_POST['senha'] : '';

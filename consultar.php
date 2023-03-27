@@ -1,6 +1,9 @@
 <?php 
+
 session_start();
+
 include('conexao.php');
+include('valida_usuario.php');
 
 $matricula = $_SESSION['matricula'];
 

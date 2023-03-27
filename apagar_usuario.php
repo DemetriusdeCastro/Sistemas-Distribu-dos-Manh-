@@ -1,6 +1,7 @@
 <?php
 
 include('conexao.php');
+include('valida_usuario.php');
 
 $matricula = $_GET['matricula'];
 
