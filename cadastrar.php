@@ -13,6 +13,7 @@
 		Senha: <input type="password" name="senha"><br>
 		<input type="submit" name="cadastrar" value="Cadastrar">
 	</form>
+	<a href="principal.php">Voltar</a>
 	</center>
 </body>
 </html>

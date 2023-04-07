@@ -20,10 +20,10 @@ if (!$conexao) {
 }
 
 //LOCAWEB
-/*
-$conexao = pg_connect("host=fpbalunosads.postgresql.dbaas.com.br dbname=fpbalunosads port=5432 user=fpbalunosads password=Sistemas@2023");
+
+$conexao2 = pg_connect("host=alunosfpb.postgresql.dbaas.com.br dbname=alunosfpb port=5432 user=alunosfpb password=Alunos@2023");
 if (!$conexao) {
     die('Não foi possível conectar');
 }
-*/
+
 ?>

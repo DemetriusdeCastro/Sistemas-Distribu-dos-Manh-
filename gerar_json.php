@@ -8,10 +8,6 @@ $query = mysqli_query($conexao, $select);
 $dado = mysqli_fetch_all($query);
 file_put_contents("cadastro.json", json_encode($dado));
 
-var_dump($dado);
-
-echo $dado[0][1];
-
-//header('Location: json_gerado.php');
+header('Location: json_gerado.php');
 
 ?>
